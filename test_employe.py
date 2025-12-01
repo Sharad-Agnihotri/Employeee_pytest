@@ -1,14 +1,8 @@
 
-from employe import get_employee_info
+from employe import employee_info
 
-def test_get_employee_info():
+def test_employee_info():
    
-    name = "John Doe"
-    emp_id = "E123"
-    department = "IT"
-    salary = 50000
-
-    
     expected_output = (
         "Employee Name: John Doe\n"
         "Employee ID: E123\n"
@@ -17,4 +11,4 @@ def test_get_employee_info():
     )
 
     
-    assert get_employee_info(name, emp_id, department, salary) == expected_output
+    assert employee_info("Alice", "E101", "IT", 55000) == expected_output
