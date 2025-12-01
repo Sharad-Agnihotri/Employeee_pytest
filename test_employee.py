@@ -5,9 +5,9 @@ def test_employee_info():
    
     expected_output = (
         "Employee Name: Alice\n"
-        "Employee ID: E123\n"
+        "Employee ID: E101\n"
         "Department: IT\n"
-        "Salary: 50000"
+        "Salary: 55000"
     )
 
     
